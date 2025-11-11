@@ -1,0 +1,6 @@
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove2/InTheGroove2_Determinator.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove2/InTheGroove2_ThisisRock_Roll.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove2/InTheGroove2_Go60Go.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove2/InTheGroove2_TempleofBoom.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove2/InTheGroove2_Spaceman.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove2/InTheGroove2_WannaDo.json

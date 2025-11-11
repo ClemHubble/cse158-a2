@@ -1,0 +1,2 @@
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sArrowArrangements/Fraxtil_sArrowArrangements_HumanError.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sArrowArrangements/Fraxtil_sArrowArrangements_Girls.json

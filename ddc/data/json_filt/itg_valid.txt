@@ -1,0 +1,12 @@
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove2/InTheGroove2_Determinator.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove2/InTheGroove2_ThisisRock_Roll.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove2/InTheGroove2_Go60Go.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove2/InTheGroove2_TempleofBoom.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove2/InTheGroove2_Spaceman.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove2/InTheGroove2_WannaDo.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove/InTheGroove_Delirium.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove/InTheGroove_TouchMe.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove/InTheGroove_DriftingAway.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove/InTheGroove_TheGame.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove/InTheGroove_QueenofLight.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove/InTheGroove_WhyMe.json

@@ -1,0 +1,6 @@
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove/InTheGroove_Tell.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove/InTheGroove_Dawn.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove/InTheGroove_LetMyLoveGoBlind.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove/InTheGroove_HandofTime.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove/InTheGroove_LemmingsontheRun.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove/InTheGroove_Mythology.json

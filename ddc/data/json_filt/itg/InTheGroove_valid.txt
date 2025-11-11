@@ -1,0 +1,6 @@
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove/InTheGroove_Delirium.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove/InTheGroove_TouchMe.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove/InTheGroove_DriftingAway.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove/InTheGroove_TheGame.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove/InTheGroove_QueenofLight.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove/InTheGroove_WhyMe.json

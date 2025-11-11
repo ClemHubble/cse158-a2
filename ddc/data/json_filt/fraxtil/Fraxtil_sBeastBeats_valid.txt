@@ -1,0 +1,2 @@
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sBeastBeats/Fraxtil_sBeastBeats_JumpYaBody.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sBeastBeats/Fraxtil_sBeastBeats_G_SYMPHONiCORE.json

@@ -1,0 +1,4 @@
+2013-01-01 00:00 - Initial release.
+2013-01-01 00:47 - Fixed a double-step in The Orionids Expert.
+2013-01-02 19:06 - Fixed a sync error in the non-Expert charts for Cities.
+                   Rerated Serrated Sarah Expert to 14.

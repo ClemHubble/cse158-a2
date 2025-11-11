@@ -1,0 +1,16 @@
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sArrowArrangements/Fraxtil_sArrowArrangements_PainGame.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sArrowArrangements/Fraxtil_sArrowArrangements_NoBeginning.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sArrowArrangements/Fraxtil_sArrowArrangements_Goin_Under.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sArrowArrangements/Fraxtil_sArrowArrangements_Goodbye_2012Mix_.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sArrowArrangements/Fraxtil_sArrowArrangements_DealWithIt.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sArrowArrangements/Fraxtil_sArrowArrangements_BadKetchup.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sArrowArrangements/Fraxtil_sArrowArrangements_StarGear.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sArrowArrangements/Fraxtil_sArrowArrangements_NeedYourLove_SF_DubstepMix_.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sArrowArrangements/Fraxtil_sArrowArrangements_BitchClap.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sArrowArrangements/Fraxtil_sArrowArrangements_Stamina.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sArrowArrangements/Fraxtil_sArrowArrangements_DeadHollywood.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sArrowArrangements/Fraxtil_sArrowArrangements_LovetoRiseintheSummerMorning.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sArrowArrangements/Fraxtil_sArrowArrangements_TheSeconds.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sArrowArrangements/Fraxtil_sArrowArrangements_GangnamStyle.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sArrowArrangements/Fraxtil_sArrowArrangements_TurnUp_TheMusic_.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sArrowArrangements/Fraxtil_sArrowArrangements_CallMeMaybe_Remix_.json

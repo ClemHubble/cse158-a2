@@ -1,0 +1,9 @@
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sArrowArrangements/Fraxtil_sArrowArrangements_HumanError.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sArrowArrangements/Fraxtil_sArrowArrangements_Girls.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sBeastBeats/Fraxtil_sBeastBeats_JumpYaBody.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sBeastBeats/Fraxtil_sBeastBeats_G_SYMPHONiCORE.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/TsunamixIII/TsunamixIII_HotPursuit_Remix_.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/TsunamixIII/TsunamixIII_Timewarp.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/TsunamixIII/TsunamixIII_StayAwake.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/TsunamixIII/TsunamixIII_Killin_YourDudes.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/TsunamixIII/TsunamixIII_TheOrionids.json

@@ -1,0 +1,6 @@
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove2/InTheGroove2_SummerinBelize.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove2/InTheGroove2_Destiny.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove2/InTheGroove2_NoPrincess.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove2/InTheGroove2_HolyGuacamole.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove2/InTheGroove2_MusicPleeze.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/itg/InTheGroove2/InTheGroove2_PsalmPilot.json

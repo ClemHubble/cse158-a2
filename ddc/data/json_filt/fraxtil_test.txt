@@ -1,0 +1,9 @@
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sArrowArrangements/Fraxtil_sArrowArrangements_InnerUniverse_ExtendedMix_.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sArrowArrangements/Fraxtil_sArrowArrangements_Named_TheMoon_.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sBeastBeats/Fraxtil_sBeastBeats_KokeshiNekoMedley.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/Fraxtil_sBeastBeats/Fraxtil_sBeastBeats_Mess.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/TsunamixIII/TsunamixIII_FallingDown.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/TsunamixIII/TsunamixIII_RollingDownTheStreet.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/TsunamixIII/TsunamixIII_LetItGo.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/TsunamixIII/TsunamixIII_RightOsiris.json
+/mnt/c/users/jason/desktop/code/ddc/data/json_filt/fraxtil/TsunamixIII/TsunamixIII_Sleaze.json
