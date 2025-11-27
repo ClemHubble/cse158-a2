@@ -84,7 +84,7 @@ if __name__ == '__main__':
 
         for json_fp in json_fps:
             song_name = os.path.splitext(os.path.split(json_fp)[1])[0]
-            print 'Extracting feats from {}'.format(song_name)
+            print('Extracting feats from {}'.format(song_name))
 
             with open(json_fp, 'r') as json_f:
                 meta = json.loads(json_f.read())

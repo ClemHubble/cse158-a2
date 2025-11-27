@@ -52,8 +52,8 @@ class OnsetNet:
         # Input tensors
         feats_audio_nunroll = tf.placeholder(dtype, shape=[batch_size, rnn_nunroll + zack_hack, audio_context_len, audio_nbands, audio_nchannels], name='feats_audio')
         feats_other_nunroll = tf.placeholder(dtype, shape=[batch_size, rnn_nunroll, nfeats], name='feats_other')
-        print 'feats_audio: {}'.format(feats_audio_nunroll.get_shape())
-        print 'feats_other: {}'.format(feats_other_nunroll.get_shape())
+        print('feats_audio: {}'.format(feats_audio_nunroll.get_shape()))
+        print('feats_other: {}'.format(feats_other_nunroll.get_shape()))
 
         if mode != 'gen':
             targets_nunroll = tf.placeholder(dtype, shape=[batch_size, rnn_nunroll])
@@ -91,7 +91,7 @@ class OnsetNet:
 
                 pool_shape = [1, ptime, pband, 1]
                 pooled = tf.nn.max_pool(convolved, ksize=pool_shape, strides=pool_shape, padding='SAME')
-                print '{}: {}'.format(layer_name, pooled.get_shape())
+                print('{}: {}'.format(layer_name, pooled.get_shape()))
 
                 export_feat_tensors[layer_name] = pooled
 
@@ -113,8 +113,8 @@ class OnsetNet:
         feats_conv = tf.reshape(cnn_output, [batch_size * rnn_nunroll, nfeats_conv])
         nfeats_tot = nfeats_conv + nfeats
         feats_all = tf.concat(1, [feats_conv, feats_other])
-        print 'feats_cnn: {}'.format(feats_conv.get_shape())
-        print 'feats_all: {}'.format(feats_all.get_shape())
+        print('feats_cnn: {}'.format(feats_conv.get_shape()))
+        print('feats_all: {}'.format(feats_all.get_shape()))
 
         # Project to RNN size
         rnn_output = feats_all
@@ -161,7 +161,7 @@ class OnsetNet:
 
             rnn_output = tf.reshape(tf.concat(outputs, axis=1), [batch_size * rnn_nunroll, rnn_size])
             rnn_output_size = rnn_size
-        print 'rnn_output: {}'.format(rnn_output.get_shape())
+        print('rnn_output: {}'.format(rnn_output.get_shape()))
 
         # Dense NN
         dnn_output = rnn_output
@@ -187,7 +187,7 @@ class OnsetNet:
                 if mode == 'train' and dnn_keep_prob < 1.0:
                     last_layer = tf.nn.dropout(last_layer, dnn_keep_prob)
                 last_layer_size = layer_size
-                print '{}: {}'.format(layer_name, last_layer.get_shape())
+                print('{}: {}'.format(layer_name, last_layer.get_shape()))
 
                 export_feat_tensors[layer_name] = last_layer
 
@@ -202,7 +202,7 @@ class OnsetNet:
         prediction = tf.nn.sigmoid(logits)
         prediction_inspect = tf.reshape(prediction, [batch_size, rnn_nunroll])
         prediction_final = tf.squeeze(tf.slice(prediction_inspect, [0, rnn_nunroll - 1], [-1, 1]), squeeze_dims=[1])
-        print 'logit: {}'.format(logits.get_shape())
+        print('logit: {}'.format(logits.get_shape()))
 
         # Compute loss
         if mode != 'gen':

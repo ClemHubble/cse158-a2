@@ -161,6 +161,6 @@ if __name__ == '__main__':
         copy_pasta = []
         for l in eval_results:
             copy_pasta.append(','.join([str(x) for x in l]))
-        print ','.join(copy_pasta)
+        print(','.join(copy_pasta))
     else:
         raise NotImplementedError()

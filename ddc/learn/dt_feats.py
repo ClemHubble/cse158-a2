@@ -35,7 +35,7 @@ if __name__ == '__main__':
             song_feats_dt.append(song_ch_dt)
         song_feats_dt = np.stack(song_feats_dt, axis=2)
 
-        print '{}: {}->{}'.format(song_name, song_feats.shape, song_feats_dt.shape)
+        print('{}: {}->{}'.format(song_name, song_feats.shape, song_feats_dt.shape))
 
         feat_out_fp = os.path.join(args.out_dir, '{}.pkl'.format(song_name))
         with open(feat_out_fp, 'wb') as f:

@@ -74,6 +74,6 @@ if __name__ == '__main__':
         meta = json.loads(f.read())
 
     for i, chart in enumerate(meta['charts']):
-        print '{}: {} {} {}'.format(i, chart['type'], chart['difficulty_fine'], chart['desc_or_author'])
+        print('{}: {} {} {}'.format(i, chart['type'], chart['difficulty_fine'], chart['desc_or_author']))
     chart_idx = int(raw_input('Which chart? '))
     write_preview_wav(wav_fp, meta['charts'][chart_idx]['notes'])
