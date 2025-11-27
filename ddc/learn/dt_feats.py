@@ -28,7 +28,7 @@ if __name__ == '__main__':
 
         song_ch = song_feats[:, :, args.in_channel]
         song_feats_dt = [song_ch]
-        for i in xrange(1, args.n_dt + 1):
+        for i in range(1, args.n_dt + 1):
             song_ch_dt = np.diff(song_ch, n=i, axis=0)
             song_ch_zp = np.zeros_like(song_ch[:i])
             song_ch_dt = np.concatenate([song_ch_zp, song_ch_dt])

@@ -1,4 +1,4 @@
-import cPickle as pickle
+import pickle
 import os
 
 import numpy as np
@@ -63,7 +63,7 @@ def test():
 
             song_context, _ = model.prepare_test(song_features, 0)
             song_export = []
-            for i in xrange(0, nframes, BATCH_SIZE):
+            for i in range(0, nframes, BATCH_SIZE):
                 batch_features = song_context[i:i + BATCH_SIZE]
                 feed_dict = {
                     model.input_context: batch_features,

@@ -1,3 +1,4 @@
+from functools import reduce
 if __name__ == '__main__':
     import argparse
     import copy
@@ -43,7 +44,7 @@ if __name__ == '__main__':
     chart_difficulties = set(filter(lambda x: bool(x), [x.strip() for x in args.chart_difficulties.split(',')]))
     substitutions = filter(lambda x: bool(x), [x.strip() for x in args.substitutions.split(',')])
     assert len(substitutions) % 2 == 0
-    substitutions = [(substitutions[i], substitutions[i + 1]) for i in xrange(0, len(substitutions), 2)]
+    substitutions = [(substitutions[i], substitutions[i + 1]) for i in range(0, len(substitutions), 2)]
     substitutions = {x.strip():y.strip() for x, y in substitutions}
     arrow_types = set(filter(lambda x: bool(x), [x.strip() for x in args.arrow_types.split(',')]))
     arrow_types.add('0')
@@ -196,7 +197,7 @@ if __name__ == '__main__':
                     chart_meta_copy = copy.deepcopy(chart_meta)
                     notes_cleaned = []
                     for meas, beat, time, note in chart_meta_copy['notes']:
-                        note_new = ''.join([note[int(permutation[i])] for i in xrange(len(permutation))])
+                        note_new = ''.join([note[int(permutation[i])] for i in range(len(permutation))])
 
                         notes_cleaned.append((meas, beat, time, note_new))
                         chart_meta_copy['notes'] = notes_cleaned

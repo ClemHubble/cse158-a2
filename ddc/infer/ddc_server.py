@@ -172,7 +172,7 @@ def create_chart_dir(
         print('Computing step placement scores')
         feats_audio = np.zeros((sp_batch_size, 1, 15, 80, 3), dtype=np.float32)
         predictions = []
-        for start in xrange(0, song_feats.shape[0], sp_batch_size):
+        for start in range(0, song_feats.shape[0], sp_batch_size):
             for i, frame_idx in enumerate(range(start, start + sp_batch_size)):
                 feats_audio[i] = make_onset_feature_context(song_feats, frame_idx, 7)
 
@@ -201,7 +201,7 @@ def create_chart_dir(
         step_prev = '<-1>'
         times_arr = [placed_times[0]] + placed_times + [placed_times[-1]]
         selected_steps = []
-        for i in xrange(1, len(times_arr) - 1):
+        for i in range(1, len(times_arr) - 1):
             dt_prev, dt_next = times_arr[i] - times_arr[i-1], times_arr[i+1] - times_arr[i]
             feed_dict = {
                 ss_model.syms: np.array([[ss_model.arrow_to_encoding(step_prev, 'bagofarrows')]], dtype=np.float32),
@@ -224,8 +224,8 @@ def create_chart_dir(
         max_subdiv = max(time_to_step.keys())
         if max_subdiv % _SUBDIV != 0:
             max_subdiv += _SUBDIV - (max_subdiv % _SUBDIV)
-        full_steps = [time_to_step.get(i, '0000') for i in xrange(max_subdiv)]
-        measures = [full_steps[i:i+_SUBDIV] for i in xrange(0, max_subdiv, _SUBDIV)]
+        full_steps = [time_to_step.get(i, '0000') for i in range(max_subdiv)]
+        measures = [full_steps[i:i+_SUBDIV] for i in range(0, max_subdiv, _SUBDIV)]
         measures_txt = '\n,\n'.join(['\n'.join(measure) for measure in measures])
         chart_txt = _CHART_TEMPL.format(
             ccoarse=_DIFFS[coarse],

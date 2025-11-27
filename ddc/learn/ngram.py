@@ -15,7 +15,7 @@ class NgramSequence:
             append = ['<post>']
 
         sequence = prepend + self.sequence + append
-        for i in xrange(len(sequence) - (k - 1)):
+        for i in range(len(sequence) - (k - 1)):
             yield tuple(sequence[i:i + k])
 
 class NgramLanguageModel:

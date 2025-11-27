@@ -152,7 +152,7 @@ class OnsetNet:
             with tf.variable_scope('rnn_unroll'):
                 state = initial_state
                 outputs = []
-                for i in xrange(rnn_nunroll):
+                for i in range(rnn_nunroll):
                     if i > 0:
                         tf.get_variable_scope().reuse_variables()
                     (cell_output, state) = cell(rnn_inputs[i], state)
@@ -283,7 +283,7 @@ class OnsetNet:
             batch_feats_other = []
             batch_targets = []
             batch_target_weights = []
-            for _ in xrange(self.batch_size):
+            for _ in range(self.batch_size):
                 chart = charts[random.randint(0, len(charts) - 1)]
                 frame_idx = chart.sample(1, **exclude_kwargs)[0]
 
@@ -394,7 +394,7 @@ class OnsetNet:
             subseq_len = self.batch_size
             subseq_start = 0
 
-        for frame_idx in xrange(subseq_start, eval_chart.get_nframes(), subseq_len):
+        for frame_idx in range(subseq_start, eval_chart.get_nframes(), subseq_len):
             feat_kwargs['zack_hack_div_2'] = self.zack_hack_div_2
             audio, other, target = eval_chart.get_subsequence(frame_idx, subseq_len, np_dtype, **feat_kwargs)
 

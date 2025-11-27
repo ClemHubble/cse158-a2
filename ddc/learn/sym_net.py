@@ -1,3 +1,4 @@
+from functools import reduce
 import math
 import random
 
@@ -217,7 +218,7 @@ class SymNet:
             with tf.variable_scope('rnn_unroll'):
                 state = initial_state
                 outputs = []
-                for i in xrange(nunroll):
+                for i in range(nunroll):
                     if i > 0:
                         tf.get_variable_scope().reuse_variables()
                     (cell_output, state) = cell(rnn_inputs[i], state)
@@ -386,7 +387,7 @@ class SymNet:
             if arrow in self._IN_SPECIAL:
                 result = self._IN_SPECIAL.index(arrow)
             else:
-                multipliers = [int(math.pow(self.sym_narrowclasses, self.sym_narrows - i - 1)) for i in xrange(self.sym_narrows)]
+                multipliers = [int(math.pow(self.sym_narrowclasses, self.sym_narrows - i - 1)) for i in range(self.sym_narrows)]
                 result = len(self._IN_SPECIAL) + sum([multipliers[i] * int(arrowclass) for i, arrowclass in enumerate(arrow)])
         elif encoding == 'bagofarrows':
             in_len = len(self._IN_SPECIAL) + (self.sym_narrows * self.sym_narrowclasses)
@@ -407,7 +408,7 @@ class SymNet:
         batch_syms_target = []
         batch_feats_other = []
         batch_feats_audio = []
-        for _ in xrange(self.batch_size):
+        for _ in range(self.batch_size):
             chart = charts[random.randint(0, len(charts) - 1)]
 
             syms, feats_other, feats_audio = chart.get_random_subsequence(self.in_nunroll, **seq_feat_kwargs)
@@ -449,13 +450,13 @@ class SymNet:
             subseq_stride = self.batch_size
             subseq_end = eval_chart.get_nannotations() - subseq_len
 
-        for i in xrange(subseq_start, subseq_end, subseq_stride):
+        for i in range(subseq_start, subseq_end, subseq_stride):
             batch_syms = []
             batch_syms_inputs = []
             batch_feats_other = []
             batch_feats_audio = []
             batch_syms_targets = []
-            for j in xrange(self.batch_size):
+            for j in range(self.batch_size):
                 if i + j >= eval_chart.get_nannotations():
                     break
                 syms, feats_other, feats_audio = eval_chart.get_subsequence(i + j, subseq_len, **seq_feat_kwargs)
