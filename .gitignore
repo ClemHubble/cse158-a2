@@ -1,0 +1,26 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Conda environments
+conda-env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VSCode settings
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
