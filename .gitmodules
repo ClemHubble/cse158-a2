@@ -1,0 +1,3 @@
+[submodule "ddc"]
+	path = ddc
+	url = git@github.com:chrisdonahue/ddc.git
