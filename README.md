@@ -79,6 +79,9 @@ Then sequentially run `02-generate-ai-charts.ipynb` to generate charts for all a
 | `02-generate-ai-charts` | Sends audio to DDC server, parses returned `.sm` files into JSON |
 | `03-convert-to-seconds` | Ensures all charts use seconds (all DDC-generated charts are 125bpm) |
 | `04-eda` | Exploratory data analysis, validation, and visualization |
+| `05-classification` | Training models with explicit feature engineering |
+| `06-classification-implicit` | Training models with feature learning |
+| `07-comparison`| Evaluated performances of all models |
 
 Run notebooks from the `notebooks/` directory:
 
